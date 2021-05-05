@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Web 7</title>
+    <link rel="stylesheet" href="style7.css">
+
+</head>
+<body>
+    <div>
+        <p>
+            É possível manipular o tamanho das fonts, porém é considerado boa conduta utilizar a unidade de tamanho "em".<br>
+            Como por exemplo:<br><br>
+            <span class="h1">2em = 32px = h1</span><br><br>
+            <span class="h2">1.5em = 24px = h2</span><br><br>
+            <span class="h3">1.17em = 18.72px = h3</span><br><br>
+            <span class="h4">1em = 16px = h4 (Que aliás também é o tamanho default do CSS)</span><br><br>
+            <span class="h5">.83em = 13.28px = h5</span><br><br>
+            <span class="h6">.67em = 10.72px = h6</span><br><br>
+        </p>
+    </div><!--
+        A unidade de font-size "em" é uma questão de boa prática, já que ela pode ser manipulada pelo usuário, já usando pt ou px fazem com que os tamanhos sejam fixos, logo o usuário não consegue mudá-la.
+    -->
+    <a href="https://www.w3schools.com/cssref/css_pxtoemconversion.asp" target="_blank">Conversor de em/px</a><br>
+    <a href="http://zuga.net/articles/html-heading-elements/" target="_blank">Tabela de font-size</a><br><br><br><br>
+
+    <div class="bhw">
+        Enquanto utilizar "height" é plausível, algumas situações se tornam desoganizadas, já que esse seria um valor fixo da altura, ou seja, o texto pode ultrapassar o valor dado da altura. Então é uma boa prática utilizar o "min-height" ao invés do "height" a não ser que seja por alguma decisão estética. Já que o "min-height" acompanha o texto, ignorando o valor original e apropriando a altura de acordo com a altura do texto.
+    </div>
+    <br><br><br><br>
+    <div class="bmhw">
+        Enquanto utilizar "height" é plausível, algumas situações se tornam desoganizadas, já que esse seria um valor fixo da altura, ou seja, o texto pode ultrapassar o valor dado da altura. Então é uma boa prática utilizar o "min-height" ao invés do "height" a não ser que seja por alguma decisão estética. Já que o "min-height" acompanha o texto, ignorando o valor original e apropriando a altura de acordo com a altura do texto.
+    </div><br><br>
+
+    <div>
+        <div class="display1 disp">Teste 1a</div>
+        <div class="display1 disp">Teste 1b</div>
+    </div><br><br>
+    <div>
+        <div class="display2 disp">Teste 2a</div>
+        <div class="display2 disp">Teste 2b</div>
+    </div><br><br>
+    <div>
+        <div class="display3 disp">Teste 3a</div>
+        <div class="display3 disp">Teste 3b</div>
+    </div><br><br>
+
+    <div>
+        <div class="valign1 disp">Teste 1a</div>
+        <div class="valign1 disp">
+            Teste 1b<br>
+            Teste 1b<br>
+            Teste 1b<br>
+            Teste 1b<br>
+        </div>
+    </div><br><br>
+    <div>
+        <div class="valign2 disp">Teste 1a</div>
+        <div class="valign2 disp">
+            Teste 1b<br>
+            Teste 1b<br>
+            Teste 1b<br>
+            Teste 1b<br>
+        </div>
+    </div><br><br>
+
+
+</body>
+</html>

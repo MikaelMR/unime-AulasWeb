@@ -1,0 +1,77 @@
+.h1 {
+    font-size: 2em;
+}
+.h2 {
+    font-size: 1.5em;
+}
+.h3 {
+    font-size: 1.17em;
+}
+.h4 {
+    font-size: 1em;
+}
+.h5 {
+    font-size: .83em;
+}
+.h6 {
+    font-size: .67em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bhw {
+    border: 1px solid black;
+    width: 50%;
+    height: 40px;
+}
+
+.bmhw {
+    border: 1px solid black;
+    width: 50%;
+    min-height: 40px;
+}/*
+border: 1px solid black; = Cria uma borda ao redor da tag seleionada, os valores são seguidos da grossura da borda, o seu tipo, e no final, sua cor.
+
+width: 50%; = Diz a largura de alguma tag, limitando todo conteúdo da tag selecionada dentro do limite da largura. Pode ser usada tanto com "%" quanto "px".
+
+height: 40px; = Mesma propriedade da "width" porém para altura ao invés de largura, porém, ela é melhor utilizada com "px" do que com "%".
+
+min-height: 40px; Funciona como o "height" porém sem propriedade de valor fixo, ela acompanha o conteúdo selecionado.
+*/
+.disp {
+    width: 300px;
+    border: 1px solid black;
+}
+.display1 {
+    display: block;
+}/*
+display = Determina como uma tag selecionada será visualizada na tela.
+
+block; = O display padrão do CSS.
+*/
+.display2 {
+    display: none;
+}/*
+none; = Esconde o conteúdo selecionado, porém ele ainda existe.
+*/
+.display3 {
+    display: inline-block;
+}/*
+inline-block; = Posicionam elementos um do lado do outro, sem ficarem se obstruindo.
+*/
+.valign1 {
+    display: inline-block;
+    vertical-align: top;
+}/*
+vertical-align = Determina o alinhamento vertical de algum elemento selecionado.
+
+top; = Alinha o elemento no topo.
+*/
+.valign2 {
+    display: inline-block;
+    vertical-align: middle;
+}/*
+middle; = Alinha o elemento no meio.
+*/

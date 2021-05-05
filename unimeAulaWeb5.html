@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula Web 5</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style type="text/css">
+		p {
+			background-color: rgba(255,255,0,1);
+		}
+
+		#no1 {
+			color: red;
+		}
+		#no2 {
+			color: green;
+		}
+		#no3 {
+			color: #ff00ff;
+		}
+
+		.dois {
+			font-weight: bold;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p>
+			Bloco
+		</p>
+	</div> <!--
+	<div></div>: Cria um bloco para ser manipulado-->
+	<div>
+		<p>
+			C<span style="color: red">o</span>r <span style="color: blue">Azul</span>
+		</p> <!--
+		<span></span>: Mexe com a manipulação de algo numa linha, é como se fosse <div> em nível de linha-->
+	</div>
+
+	<video>
+		<source src="test.mp4" type="video/mp4">
+	</video> <!--
+	<video></video>: Exibe um vídeo salvo em algum lugar no seu computador-->
+
+	<iframe 
+		src="https://www.youtube.com/watch?v=y4iyuYbgt0I">
+	</iframe> <!--
+	<iframe></iframe>: Exibe um vídeo do youtube utilizando link-->
+
+	<p>
+		Exemplo <span id="no1">Primário</span><br>
+		Exemplo <span id="no2">Secundário</span><br>
+		Exemplo <span id="no3">Terceiro</span><br>
+	</p>
+	<p class="dois">
+		Exemplo2 Primário
+	</p>
+	<p class="dois">
+		Exemplo3 Primário
+	</p>
+</body>
+</html>

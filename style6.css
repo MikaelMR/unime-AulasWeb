@@ -1,0 +1,61 @@
+div#pri a:link {
+	color: yellow;
+}
+div#pri a:visited {
+	color: orange;
+}
+div#pri a:hover,
+div#pri a:active {
+	color: red;
+	text-decoration: none;
+}
+
+div#seg a:link,
+div#seg a:visited {
+	color: green;
+	text-decoration: none;
+}
+div#seg a:hover {
+	color: purple;
+	text-decoration: underline;
+}
+div#seg a:active {
+	color: brown;
+	text-decoration: underline;
+}
+
+.ponto {
+	font-weight: bold;
+}
+
+span.ponto {
+	color: blue;
+}
+
+ul#selecul li span {
+	color: yellow;
+}
+
+#selecul li.selecli {
+	font-weight: bold;
+}
+
+@font-face {
+	src: url('../HTML/OldLondon.ttf');
+	font-family: 'Old London';
+}
+
+#OLfont {
+	font-family: 'Old London';
+}
+
+.backimg {
+	background-image: url('../HTML/weirdchamp-blog.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto;
+	font-weight: bold;
+	font-size: x-large;
+	color: red;
+	text-align: center;
+}
