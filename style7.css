@@ -75,3 +75,76 @@ top; = Alinha o elemento no topo.
 }/*
 middle; = Alinha o elemento no meio.
 */
+
+.layoutg {
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+}
+.meio {
+    display: inline-block;
+    vertical-align: middle;
+}
+#titulo,
+#rodape {
+    width: 626px;
+}
+/*
+#rodape {
+    bottom: 0;
+    position: fixed;
+}
+
+Para garantir com que o rodapé de uma página fique no final dela, é bom utilizar a propriedade "bottom" e "position: fixed;", que determina a distância de uma tag selecionada do final da página e a outra mantém a posição de uma tag sempre fixa em uma posição da página. Mesma coisa para o título porém com a propriedade "top" ao invés de "bottom".
+
+Por conta de isso ser uma anotação eu deixei o código comentado.
+*/
+
+#absolutext {
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+#absolutet {
+    position: absolute;
+    top: 1575px;
+    left: 300px;
+    font-weight: bold;
+}
+/*
+position: absolute; = Faz com que a tag selecionada tenha uma posição absoluta, ou seja, fique sempre numa posição determinada antes, ainda passando por cima de outras tags.
+*/
+
+#indexA,
+#indexB {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    opacity: 0.8;
+}
+#indexA {
+    background-color: salmon;
+    left: 20px;
+    top: 1736px;
+    z-index: 2;
+}
+#indexB {
+    background-color: seagreen;
+    left: 70px;
+    top: 1786px;
+    z-index: 1;
+}
+#zindexplain {
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    left: 300px;
+    right: 50px;
+    width: 250px;
+    min-height: 200px;
+}
+/*
+z-index: ;= Dá um número de prioridade para a visualização de algo.
+*/
+
