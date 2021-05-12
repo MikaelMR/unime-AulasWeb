@@ -115,9 +115,20 @@
     </div><br><br><br><br>
 
     <form>
-        <label for="email">E-mail:</label><input id="email" type="text"><br>
-        Senha: <input type="password"><br>
-        <input type="submit">
+        <label for="email">E-mail:</label>
+        <input id="email" name="Email" type="text" required><br>
+
+        <label for="senha">Senha: </label>
+        <input id="senha" name="Senha" type="password"><br>
+
+        <input name="ManterConectado" type="checkbox"><br>
+
+        <input type="radio" name="tema" value="claro">Tema Claro<br>
+
+        <input type="radio" name="tema" value="escuro">Tema Escuro<br>
+
+        <input type="submit" name="Enviar"><br>
+
     </form>
 
 
