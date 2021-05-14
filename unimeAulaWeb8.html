@@ -8,6 +8,59 @@
     <link rel="stylesheet" href="style8.css">
 </head>
 <body>
-    
+    <p id="hello1">
+        
+    </p>
+
+    <button onclick="fazer()">
+        Butão
+    </button><!-- 
+        <button> = É uma tag que define um butão clicável, se esse butão não for criado com <input> então você pode inserir textos e tags dentro dele.
+    -->
+
+    <script type="text/javascript">
+            alert('Hello World! (alert)');/*
+            alert(''); = Faz com que a página mostre uma mensagem, impedindo interação com o site e com que ele carregue completamente, até o usuário clicar no "OK".
+            */
+            console.log('Hello World! (log)');/*
+            console.log(''); = Serve como uma sandbox, para ver o carregamento de itens e os seus status, além do armazenamento de informações. Literalmente só um console.
+            */
+            document.getElementById('hello1').innerHTML = 'Hello World! (ID)'; /*
+            document = É a página inteira.
+            getElementById('') = Função que localiza e captura um elemento da página pelo seu ID.
+            innerHTML = '' = Propriedade que define ou retorna o conteúdo de um elemento HTML.
+            */
+            function fazer(){
+                alert('Butão Funciona');
+            }/* 
+            function = É um bloco de código que executa uma determinada tarefa especificada.
+            */
+
+            var a = 1;
+            var b = 2;
+            var c = 'string'
+            var d = '3'
+            console.log(a+b+c+d);/*
+            var = Declara uma variável assumindo por si qual tipo de dado está sendo armazenado.
+            */
+
+            var N1 = 10;
+            var N2 = 5;
+            console.log(N1+N2 +' = Soma');
+            console.log(N1-N2 +' = Subtração');
+            console.log(N1*N2 +' = Multiplicação');
+            console.log(N1/N2 +' = Divisão');
+            console.log(N1%N2 +' = Resto');
+            console.log(Math.cbrt(27));/*
+            Já que "Math" é muito denso, use a w3schools para estudar essa biblioteca.
+            */
+
+            var B1 = true;
+            var B2 = false;
+            console.log(B1, B2);
+     
+    </script>
+
+
 </body>
 </html>
