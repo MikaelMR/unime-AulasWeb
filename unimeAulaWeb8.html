@@ -58,6 +58,97 @@
             var B1 = true;
             var B2 = false;
             console.log(B1, B2);
+
+            var i1 = 5;
+            var i2 = 10;
+            var i3 = 10;
+            var i4 = null;
+            if (i2 == i3){
+                console.log('É igual.');
+            } else {
+                console.log('Não é igual.');
+            }
+            if (i1 != i2){
+                console.log('É diferente.');
+            } else {
+                console.log('É igual.');
+            }
+            if (i1 > i2){
+                console.log('É maior.');
+            } else {
+                console.log('É menor.');
+            }
+            if (i2 >= i3){
+                console.log('Maior ou igual.');
+            } else {
+                console.log('É menor');
+            }
+            if (!i4){
+                console.log("É nulo.")
+            }
+            /*
+            == | Se é igual.
+
+            != | Se é diferente.
+
+            > | Se é maior.
+
+            >= | Se é maior ou igual.
+
+            < |Se é menor.
+
+            <= | Se é menor ou igual.
+
+            && | Adiciona uma outra condição, EX:
+            if (X <= Y && X == Z){
+                console.log('EXEMPLO');
+            }
+
+            || | Diz que "ou", como se uma das condições for verdadeira, EX:
+            if (X > Y || Y < Z){
+                console.log('EXEMPLO');
+            }
+
+            ! | Diz que "não", como se fosse uma condição de negação.
+
+            ^ | É um "||" exclusivo, a apenas uma das condições pode estar verdadeira.
+
+            Quando utilizar "&&" ou "||" ou "!", lembre-se de utilizar a tabela verdade.
+            */
+
+            var s1 = 5;
+            var s2 = 10;
+            switch(s1+s2){
+                case 14: console.log('s1 + s2 = 14'); break;
+                case 15: console.log('s1 + s2 = 15'); break;
+                case 16: console.log('s1 + s2 = 16'); break;
+                default: console.log('Default.')
+            }/*
+            Preguiça de ficar explicando tudo por comentário, só veja os links, animal. (ノಠ益ಠ)ノ彡┻━┻
+            */
+
+            t1 = 6;
+            console.log((t1 == 5) ? 'É igual.' : 'Não é igual.');/*
+            Operador ternário (Conditional Tenary Operator).
+            */
+
+            var array = [];
+            array.push(32);
+            array.push(19);
+            array.push(66);
+            array.push(45);
+            array.push(22);
+            array.push(15);
+
+            var l1 = 0;
+            while(l1 < 5){
+                l1++;
+                console.log(l1);
+            }
+
+            for(var f1 = 0; f1 < 6; f1++){
+                console.log(f1);
+            }
      
     </script>
 
